@@ -160,7 +160,7 @@ public class GameGUI extends ConsoleProgram
     {
         if(!command.hasSecondWord()) {
             // if there is no second word, we don't know where to go...
-            System.out.println("Go where?");
+            println("Go where?");
             return;
         }
 
@@ -176,7 +176,7 @@ public class GameGUI extends ConsoleProgram
         else
         {
             currentRoom = nextRoom;
-            System.out.println(currentRoom.getLongDescription());
+            println(currentRoom.getLongDescription());
         }
     }
 
@@ -184,7 +184,7 @@ public class GameGUI extends ConsoleProgram
     {
         if(command.hasSecondWord())
         {
-            System.out.println("Quit what?");
+            println("Quit what?");
             return false;
         }
         else
