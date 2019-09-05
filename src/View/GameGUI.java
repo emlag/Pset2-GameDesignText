@@ -7,9 +7,6 @@ import Model.Rooms.Room;
 import acm.program.ConsoleProgram;
 
 /**
- *  To play this game, create an instance of this class and call the "play"
- *  method.
- * 
  *  This main class creates and initialises all the others: it creates all
  *  rooms, creates the parser and starts the game.  It also evaluates and
  *  executes the commands that the parser returns.
